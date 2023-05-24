@@ -1,0 +1,56 @@
+@media (max-width : 61em) {
+    html {
+        font-size: 50%;
+    }
+
+    .modal-container {
+        width: 90%;
+    }
+
+    .heading-primary {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width : 45em) {
+    .heading-primary {
+        font-size: 3.6rem;
+    }
+
+    .heading-secondary {
+        font-size: 2.2rem;
+    }
+
+    .modal-text {
+        font-size: 1.2rem;
+    }
+
+    .btn-close {
+        top: -1.2rem;
+        right: -1rem;
+    }
+}
+
+@media (max-width : 37em) {
+    html {
+        font-size: 43.75%;
+    }
+
+    .modal-box {
+        padding: 2rem 2rem;
+    }
+
+    .modal-text {
+        font-size: 1.4rem;
+    }
+
+    .btn-close {
+        top: -.2rem;
+        right: .5rem;
+    }
+
+    .modal-container {
+        flex-direction: column;
+        row-gap: 4rem;
+    }
+}
